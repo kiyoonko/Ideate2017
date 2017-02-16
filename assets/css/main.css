@@ -71,29 +71,17 @@ body {
 	height: auto !important;
 }
 
-#name{
-	/* Yoon Ko: */
-	font-family: PTSans-Bold;
-	color: #5AA4DE;
-	letter-spacing: 7px;
-	text-transform: uppercase;
-	font-size: 20px;
-	word-break:break-all;
-	table-layout: fixed;
+section{
+	height: 100vh;
 }
 
-#infoCard{
-	/* Class of 2019 Founde: */
-font-family: PTSans-Bold;
-font-size: 20px;
-color: #878787;
-}
-
-#blurb{
-	/* Lorem ipsum dolor si: */
-font-family: PTSans-Regular;
-font-size: 15px;
-color: #878787;
+#lightbulb{
+	/* Stroke 1: */
+	position:absolute;
+	width: 40.6vw;
+	height:56.5vh;
+	margin-top:17vh;
+	right:0;
 }
 
 /* Extra small devices (phones, up to 480px) */
@@ -374,7 +362,6 @@ footer ul.contacts li {
 	font-weight: 400;
 	letter-spacing: .015em;
 	text-transform: none;
-	margin-top: 50px;
 	margin-bottom: 0;
 	/* Duke University’s Fi: */
 	font-family: PTSans-NarrowBold;
@@ -763,6 +750,7 @@ figure.post-media + * {
 .img-bg-center {
 	background-position: center !important;
 	background-size: cover;
+	height:100vh;
 }
 .img-bg-top {
 	background-position: top !important;
@@ -888,6 +876,7 @@ iframe + iframe {
 }
 .isotope, .owl-carousel .owl-wrapper-outer {
 	z-index: 0;
+	height: 100vh;
 }
 .green-bg {
     background-color: #1ABB9C !important;
@@ -1445,6 +1434,7 @@ aside .thumb figure {
     position: relative;
     z-index: 8000;
     min-height: inherit;
+    background:none;
 }
 .navbar ul {
 	list-style: none;
@@ -3073,6 +3063,7 @@ blockquote:before {
 .owl-carousel {
 	text-align: center;
 	cursor: default;
+	height: 100vh;
 }
 .owl-controls {
 	display: inline-block;
@@ -5887,12 +5878,19 @@ font-family: nevis-Bold;
 font-size: 120px;
 color: #AAFF88;
 letter-spacing: 3.7px;
+		margin-top: 33.75vh;
+		margin-left:10vw;
 	}
 	
 	#hero p {
-		font-size: 22px;
-		line-height: 135%;
-		margin-top: 50px;
+/* The student innovati: */
+font-family: Avenir-Heavy;
+font-size: 30px;
+color: #FFFFFF;
+letter-spacing: 0.83px;
+line-height: 40px;
+		margin-left:10vw;
+		margin-top:3.5vh;
 	}
 	
 	#hero #owl-main .caption h1.light-bg,
